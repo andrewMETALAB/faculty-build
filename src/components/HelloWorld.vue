@@ -1,6 +1,4 @@
 <template>
-
-
 <div>
     
         <!-- header is white bar at top -->
@@ -83,7 +81,6 @@
         </div>
     <footer></footer>
 </div>
-
 </template>
 
 <script>
