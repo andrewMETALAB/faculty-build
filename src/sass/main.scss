@@ -1,0 +1,144 @@
+.testing{
+    height:297px;
+    width:100%;
+    object-fit: cover;
+}
+
+*{box-sizing: border-box;}
+header{
+    background:white;
+    width:100%;
+    height:45px;
+}
+    /* this class is for the section that holds the csun image, profile image, and titles. */
+.FAChome{
+    position: relative;
+    background: url(https://www.csun.edu/faculty/imgs/9.jpg) no-repeat center ;
+    height:297px;
+    width:100%;
+    object-fit: cover; 
+    background-size: cover;
+    z-index:1;
+}
+.FAChome a{
+    color:white;
+    text-decoration: underline;
+}
+    /* this is the profile pic of the faculty member */
+.FACprofileImage{
+    border-radius:50%;
+    border: solid 5px white;   
+}
+    /* this is overlay for the csun image */
+#FACoverlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: block;
+}
+    /* this is the faculty's department in the homepage profile header */
+.FACdepartment{
+    color:red;
+}
+    /* this is the faculty's name in the homepage profile header */
+.FACfacultyname{
+    font-size:35px;
+    color:white;
+    font-weight:200;
+    letter-spacing: 2px;
+}
+    /* the is the faculty's title in the homepage profile header */
+.FACfacultytitle{
+    color:white;
+    font-style:italic;
+    font-size:16px;
+}
+.container{
+    width: 100%;
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tab-container{
+    border-bottom:solid 0.3px rgb(236, 236, 236);
+}
+    /* this is the wrapper in order to make the divider line between the sidebar content */
+.FACborder-line-wrapper{
+    border-bottom:solid 0.3px rgb(236, 236, 236);
+    padding-bottom: 1rem;
+    margin-bottom:1rem;
+}
+.wrapper{
+    padding-top:40px;
+}
+h1{
+    font-size: 30px;
+    font-weight:300;
+    color:rgb(75, 75, 75);
+}
+h2{
+    font-size:25px;
+    font-weight:300;
+    color:rgb(75, 75, 75);
+}
+h6{
+    /* font-size:15px; */
+    font-weight:500;
+    color:rgb(75, 75, 75);
+}
+h6 a{
+    color:white;
+    font-size:13px;
+    font-family:sans-serif;
+}
+
+.nav-link{
+    padding: .5rem 1.4rem;
+}
+.tab-container .container ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    color:grey;
+    font-weight:300;
+}
+
+ul{
+    text-decoration: none;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    color:grey;
+    font-weight:300;
+}
+p{
+    color:grey;
+    font-weight:300;
+}
+.card{
+    text-align:center;
+}
+
+footer{
+    height:175px;
+    background:white;
+    width:100%;
+    margin-top:5rem;
+}
+.FACcsunEmblem{
+width:100%;
+}
+.connection-links a{
+    border:solid 1px grey;
+    padding:1rem 2rem;
+    margin:0;
+    text-align: center;
+    color:grey;
+    margin:10px 0;
+    display: inline-block;
+}
