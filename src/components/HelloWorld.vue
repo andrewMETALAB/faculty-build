@@ -63,7 +63,7 @@
         </div>
         <div class="container pt-4">
             <div class="row">                 
-                <div class="col-4">
+                <div class="col-md-4">
                     <div class="FAC-contact FACborder-line-wrapper">
                         <h6>CONTACT</h6>
                         <ul>
@@ -73,7 +73,7 @@
                             <li> <i class="fas fa-map-marker-alt fa-lg px-1"></i> <a href="#">META+LAB: 9423 Reseda Blvd</a></li>
                         </ul>
                     </div>
-                    <div class="FACborder-line-wrapper">
+                    <div class="FAC-degrees FACborder-line-wrapper">
                         <h6>DEGREES</h6>
                         <ul class="timeline">
                             <li class="timeline__header pb-3"><strong>D.Sc. Computer Science</strong> 1995, University of Massachusetts Lowell</li>
@@ -81,7 +81,7 @@
                             <li class="timeline__header pb-3"><strong>B.S. Computer Science</strong> 1986, Lowell University</li>
                         </ul>
                     </div>
-                    <div class="FACborder-line-wrapper ">
+                    <div class="FAC-interests FACborder-line-wrapper ">
                         <h6>INTERESTS</h6>
                         <a class="badge py-2 px-2 my-1" href="#">Cloud Computing (laas)</a>
                         <a class="badge py-2 px-2 my-1" href="#">Web Technology</a>
@@ -91,7 +91,7 @@
                         <a class="badge py-2 px-2 my-1" href="#">Parallel and Distributed Programming</a>
                     </div>
                 </div>
-                <div class="col-8 pr-3">
+                <div class="col-md-8 pr-3">
                     <div class="FAC-contact-sm FACborder-line-wrapper">
                         <h6>CONTACT</h6>
                         <ul>
@@ -113,7 +113,7 @@
                     <h2>Badges & Awards</h2>
 
                     <div class="container">
-                        <div class="row pt-2">
+                        <div class="row pt-2 pb-4">
                             <div class="col-lg-4 col-12 pl-0">
                                  <div class="media">
                                     <div class="media-left pr-3 pb-3">
@@ -176,35 +176,66 @@
                             </div>
                         </div> 
                     </div>
+                    <div class="FAC-degrees-sm FACborder-line-wrapper">
+                        <h6>DEGREES</h6>
+                        <ul class="timeline">
+                            <li class="timeline__header pb-3"><strong>D.Sc. Computer Science</strong> 1995, University of Massachusetts Lowell</li>
+                            <li class="timeline__header pb-3"><strong>M.S. Computer Science</strong> 1990, University of Massachusetts Lowell</li>
+                            <li class="timeline__header pb-3"><strong>B.S. Computer Science</strong> 1986, Lowell University</li>
+                        </ul>
+                    </div>
+                    <div class="FAC-interests-sm FACborder-line-wrapper ">
+                        <h6>INTERESTS</h6>
+                        <a class="badge py-2 px-2 my-1" href="#">Cloud Computing (laas)</a>
+                        <a class="badge py-2 px-2 my-1" href="#">Web Technology</a>
+                        <a class="badge py-2 px-2 my-1" href="#">Compilers</a>
+                        <a class="badge py-2 px-2 my-1" href="#">Web Development</a>
+                        <a class="badge py-2 px-2 my-1" href="#">Programming Languages</a>
+                        <a class="badge py-2 px-2 my-1" href="#">Parallel and Distributed Programming</a>
+                    </div>
+
+
                 </div>
             </div>
         </div>
     <footer>
         <div class="container">
             <div class="row pt-5">
-                <div class="col-5">
+                <div class="col-12 col-md-5">
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-12 col-md-3">
                             <img class="FACcsunEmblem" src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/CSUNS.svg/1200px-CSUNS.svg.png" alt="csun logo">
                         </div>
-                        <div class="col-9">
-                            <h6>META+LAB </h6><div style="font-size:12px;">© California State University, Northridge <br> 18111 Nordhoff Street, Northridge, CA 91330 <br>Phone: (818) 677-1200 / Contact Us</div>
+                        <div class="col-12 col-md-9">
+                            <h6>META+LAB </h6><div class="FAC-footer__text">© California State University, Northridge <br> 18111 Nordhoff Street, Northridge, CA 91330 <br>Phone: (818) 677-1200 / Contact Us</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-7">
+                <div class="col-12 col-md-7">
                     <div class="row">
-                        <div class="col-4">
-                            <div> Emergency Information <br> University Policies & Procedures</div>
+                        <div class="col-12 col-md-4">
+                            <div class="FAC-footer__text"> Emergency Information <br> University Policies & Procedures</div>
 
                         </div>
-                        <div class="col-4">
-                            <div>Emergency Information <br> University Policies & Procedures</div>
+                        <div class="col-12 col-md-4">
+                            <div class="FAC-footer__text">Terms and Conditions for Use <br> Privacy Policy <br> Document Reader </div>
 
                         </div>
-                        <div class="col-4">
-                            <div>Emergency Information <br> University Policies & Procedures</div>
+                        <div class="col-12 col-md-4">
+                            <div class="FAC-footer__text">California State University</div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="FAC-metaLabFooter mt-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        META + LAB <br> <a href="#">metalab.csun.edu</a>
+                    </div>
+                    <div class="offset-md-7 col-md-3 align-self-center">
+                        Explore. Learn. Go Beyond.
                     </div>
                 </div>
             </div>

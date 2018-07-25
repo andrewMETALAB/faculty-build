@@ -90,7 +90,9 @@
 .FAC-contact-sm{
     display:none;
 }
-
+.FAC-degrees-sm, .FAC-interests-sm{
+    display:none;
+}
 .fa-phone{
     transform: scaleX(-1);
 }
@@ -163,18 +165,20 @@ footer{
     background:white;
     width:100%;
     margin-top:4rem;
+    font-size:12px;
     .FACcsunEmblem{
-        width:100%;
+        width:75px;
         }
 }
-
-// @include media-breakpoint-down(sm){
-//     .FAC-banner{
-//         .FAC-banner__image{
-//             width:80%;
-//         }
-//     }
-// }
+.FAC-metaLabFooter{
+    height: auto;
+    background:rgb(29, 29, 29);
+    color:white;
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-left:10px;
+    
+}
 
 
 
@@ -226,6 +230,28 @@ footer{
             margin-top:20px;
         }
     }
+    .FAC-degrees, .FAC-interests{
+        display:none;
+    }
+    .FAC-degrees-sm, .FAC-interests-sm{
+        display:block;
+    }
+    .FAC-degrees-sm{
+        padding-top:20px;
+        border-top:solid 0.3px rgb(236, 236, 236);    
+    }
+    footer{
+        text-align: center;
+        .FACcsunEmblem{
+            width:100px;
+            
+        }
+        padding-bottom:300px;
+        .col-12{
+            padding-bottom:15px;
+        }
+    }
+
 }
 
 //up , down, only, between
