@@ -9,14 +9,14 @@
         <section class="FAC-banner">
             <div id="FAC-banner__overlay"></div>
             <div class="container">
-                <div class="row pt-3">
+                <div class="row align-items-center pt-3">
                     <!-- I STAYED AT 3 AND 8 COLUMNS, BECAUSE THAT'S HOW THE MOCKUP WAS.. STILL WANT ME TO CHANGE? IT LOOKS WEIRD WHEN CHANGED -->
-                    <div class="col-12 col-lg-3">
-                        <h1 class="FAC-banner__name--md">Steven Fitzgerald</h1>
-                        <div class="FAC-banner__department--md">PROFESSOR | <a href="#">Computer Science</a></div>
-                         <img class="FAC-banner__image mt-3" src="https://cdn.metalab.csun.edu/media/faculty/steven.fitzgerald/avatar.jpg" alt="Steve Fitzgerald">
+                    <div class="col-12 col-md-4">
+                        <h1 class="FAC-banner__name--sm">Steven Fitzgerald</h1>
+                        <div class="FAC-banner__department--sm">PROFESSOR | <a href="#">Computer Science</a></div>
+                         <img class="FAC-banner__image" src="https://cdn.metalab.csun.edu/media/faculty/steven.fitzgerald/avatar.jpg" alt="Steve Fitzgerald">
                     </div>
-                    <div class="col-12 col-lg-9">
+                    <div class="col-12 col-md-8">
                         <div id="FAC-banner__content">
                             
                             <div class="FAC-banner__department">PROFESSOR | <a href="#">Computer Science</a><a class="FAC-banner__badge badge px-2 ml-2" href="#">CSUN Alum<i class="fas fa-graduation-cap ml-2"></i></a></div>
@@ -25,7 +25,7 @@
                             
                             <div class="FAC-banner__title">Faculty Director - META+LAB</div>
                             
-                            <div class="FAC-banner__badge--md"><a class="badge px-2" href="#">CSUN Alum<i class="fas fa-graduation-cap ml-2"></i></a></div>
+                            <div class="FAC-banner__badge--sm"><a class="badge px-2" href="#">CSUN Alum<i class="fas fa-graduation-cap ml-2"></i></a></div>
                             
                             <ul class="FAC-banner__icons">
                                 <li class="list-inline-item">
@@ -63,8 +63,8 @@
         </div>
         <div class="container pt-4">
             <div class="row">                 
-                <div class="col-3">
-                    <div class="FACborder-line-wrapper">
+                <div class="col-4">
+                    <div class="FAC-contact FACborder-line-wrapper">
                         <h6>CONTACT</h6>
                         <ul>
                             <li> <i class="far fa-envelope fa-lg pr-2"></i><a href="#">steven.fitzgerald@csun.edu</a></li>
@@ -91,7 +91,17 @@
                         <a class="badge py-2 px-2 my-1" href="#">Parallel and Distributed Programming</a>
                     </div>
                 </div>
-                <div class="col-9">
+                <div class="col-8 pr-3">
+                    <div class="FAC-contact-sm FACborder-line-wrapper">
+                        <h6>CONTACT</h6>
+                        <ul>
+                            <li> <i class="far fa-envelope fa-lg pr-2"></i><a href="#">steven.fitzgerald@csun.edu</a></li>
+                            <li> <i class="fas fa-globe-americas fa-lg pr-2"></i><a href="#">http://www.csun.edu/~steve</a></li>
+                            <li> <i class="fas fa-phone fa-lg pl-2"></i><a href="#">818-677-4655</a></li>
+                            <li> <i class="fas fa-map-marker-alt fa-lg px-1"></i> <a href="#">META+LAB: 9423 Reseda Blvd</a></li>
+                        </ul>
+                    </div>
+                    
                     <h2>Overview</h2>
                     <div class="FAC-Overview__content">
                         <p>Steven Fitzgerald is a Professor of Computer Science at California State University, Northridge, and his teaching focus is on operating systems, compilers, and networking. During his tenure, Steve has also held several administrative positions including: Information Security Officer, Director of Academic Technology, and Chief Technology Officer.</p>
