@@ -214,15 +214,15 @@
                 <div class="col-12 col-md-7">
                     <div class="row">
                         <div class="col-12 col-md-4">
-                            <div class="FAC-footer__text"> Emergency Information <br> University Policies & Procedures</div>
+                            <div class="FAC-footer__text"><a href="#">Emergency Information</a><br> <a href="#">University Policies & Procedures</a></div>
 
                         </div>
                         <div class="col-12 col-md-4">
-                            <div class="FAC-footer__text">Terms and Conditions for Use <br> Privacy Policy <br> Document Reader </div>
+                            <div class="FAC-footer__text"><a href="#">Terms and Conditions for Use</a><br><a href="#">Privacy Policy</a>  <br><a href="#">Document Reader</a></div>
 
                         </div>
                         <div class="col-12 col-md-4">
-                            <div class="FAC-footer__text">California State University</div>
+                            <div class="FAC-footer__text"><a href="#">California State University</a></div>
                         </div>
                     </div>
                 </div>
@@ -232,10 +232,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-2">
-                        META + LAB <br> <a href="#">metalab.csun.edu</a>
+                        <div class="FAC-metaLabLogo">META<span>+</span>LAB</div>
+                        <div class="FAC-metaLabLink"><a href="#">metalab.csun.edu</a></div>
                     </div>
-                    <div class="offset-md-7 col-md-3 align-self-center">
-                        Explore. Learn. Go Beyond.
+                    <div class="offset-md-6 col-md-4 align-self-center">
+                        <div class="FAC-metaLabMotto">Explore. Learn. Go Beyond.</div>
                     </div>
                 </div>
             </div>
