@@ -1,4 +1,5 @@
 @import "bootstrap/bootstrap";
+$csunred: #D22030;
 .container{
     width: 100%;
     max-width: 1150px;
@@ -135,6 +136,7 @@ figure{
         font-size:15px;
     }
 }
+
 
 .nav-link{
     padding: .5rem 1.4rem;
@@ -298,3 +300,76 @@ p{
         display:none;
     }
 }
+
+
+
+
+
+//********************************** THIS IS THE CSS FOR CLASSES PAGE ******************************
+.btn-outline-secondary{
+    width:25%;
+    float:right;
+    color:white;
+    background:$csunred;
+    font-size:13px;
+    
+ }
+
+ .btn{
+    font-size:13px;
+ }
+ .fa-caret-down{
+     color:black;
+ }
+ .FAC-semester-divider{
+    background:$csunred;
+    height:5px;
+ }
+ .FAC-class-wrapper{
+     height:auto;
+     background:#F0F0F0;
+     border-top:solid 1px #707070;
+     border-bottom:solid 1px #707070;
+
+ }
+ .FAC-officeHours-wrapper{
+    border-top:solid 1px #707070;
+    border-bottom:solid 1px #707070;
+ }
+ .FAC-darkStriped{
+    height:auto;
+    background:#F0F0F0;
+ }
+ .FAC-whiteStriped{
+    height:auto;
+ }
+ .FAC-downloadBtn{
+    width:100%;
+    display:inline-block;
+    overflow: auto;
+    white-space: nowrap;
+    margin:0px auto;
+ }
+
+ .FAC-downloadBtn__orientation {
+    float:right;
+  }
+
+  .FAC-location-icons{
+    font-size:1.4rem;
+  }
+  .FAC-info-icons{
+    font-size:1rem;
+  }
+
+  #classes {
+    font-size:.75rem;
+    a{
+        text-decoration: underline;
+        color:$csunred;
+    }
+  }
+   
+  .FAC-italisized{
+      font-style:italic;
+  }
