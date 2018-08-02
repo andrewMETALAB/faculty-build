@@ -22,12 +22,12 @@
                     </div>
                     <div class="FAC-interests FACborder-line-wrapper ">
                         <h6>INTERESTS</h6>
-                        <a class="badge py-2 px-2 my-1" href="#">Cloud Computing (laas)</a>
-                        <a class="badge py-2 px-2 my-1" href="#">Web Technology</a>
-                        <a class="badge py-2 px-2 my-1" href="#">Compilers</a>
-                        <a class="badge py-2 px-2 my-1" href="#">Web Development</a>
-                        <a class="badge py-2 px-2 my-1" href="#">Programming Languages</a>
-                        <a class="badge py-2 px-2 my-1" href="#">Parallel and Distributed Programming</a>
+                        <a class="badge badge-primary py-2 px-2 my-1" href="#">Cloud Computing (laas)</a>
+                        <a class="badge badge-primary py-2 px-2 my-1" href="#">Web Technology</a>
+                        <a class="badge badge-primary py-2 px-2 my-1" href="#">Compilers</a>
+                        <a class="badge badge-primary py-2 px-2 my-1" href="#">Web Development</a>
+                        <a class="badge badge-primary py-2 px-2 my-1" href="#">Programming Languages</a>
+                        <a class="badge badge-primary py-2 px-2 my-1" href="#">Parallel and Distributed Programming</a>
                     </div>
                 </div>
                 <div class="col-md-8 pr-3">
@@ -125,12 +125,12 @@
                     </div>
                     <div class="FAC-interests-sm FACborder-line-wrapper ">
                         <h6>INTERESTS</h6>
-                        <a class="badge py-2 px-2 my-1" href="#">Cloud Computing (laas)</a>
-                        <a class="badge py-2 px-2 my-1" href="#">Web Technology</a>
-                        <a class="badge py-2 px-2 my-1" href="#">Compilers</a>
-                        <a class="badge py-2 px-2 my-1" href="#">Web Development</a>
-                        <a class="badge py-2 px-2 my-1" href="#">Programming Languages</a>
-                        <a class="badge py-2 px-2 my-1" href="#">Parallel and Distributed Programming</a>
+                        <a class="badge badge-primary py-2 px-2 my-1" href="#">Cloud Computing (laas)</a>
+                        <a class="badge badge-primary py-2 px-2 my-1" href="#">Web Technology</a>
+                        <a class="badge badge-primary py-2 px-2 my-1" href="#">Compilers</a>
+                        <a class="badge badge-primary py-2 px-2 my-1" href="#">Web Development</a>
+                        <a class="badge badge-primary py-2 px-2 my-1" href="#">Programming Languages</a>
+                        <a class="badge badge-primary py-2 px-2 my-1" href="#">Parallel and Distributed Programming</a>
                     </div>
                 </div>
             </div>

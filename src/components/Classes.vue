@@ -116,7 +116,7 @@
                                 <!-- Time -->
                                 <div class="FAC-font-size col-sm-3 col-12 pr-0">1:00 p.m - 1:50 p.m.</div>
                                 <!-- Location -->
-                                <div class="FAC-font-size col-sm-2 col-12 pl-2 pr-0"><a href="#"><i class="fas fa-map-marker-alt px-1 FAC-location-icons"></i>JD3520</a></div>
+                                <div class="FAC-font-size col-sm-2 col-12 pl-2 pr-0 text-nowrap"><a href="#"><i class="fas fa-map-marker-alt px-1 FAC-location-icons"></i>JD3520</a></div>
                                 <!-- Info -->
                                 <div class="FAC-font-size col-sm-2 col-12 text-sm-center text-left">
                                     <i class="fas fa-file-pdf FAC-info-icons"></i>
@@ -164,7 +164,7 @@
                                     <div><a href="#">Book an Appointment</a></div>
                                 </div>
                                  <!-- Location -->
-                                <div class="FAC-font-size col-sm-2 col-12 pl-2 pr-0"><a href="#"><i class="fas fa-map-marker-alt px-1 FAC-location-icons"></i>META+LAB</a></div>
+                                <div class="FAC-font-size col-sm-2 col-12 pl-2 pr-0 text-nowrap"><a href="#"><i class="fas fa-map-marker-alt px-1 FAC-location-icons"></i>META+LAB</a></div>
                                  <!-- Info -->
                                 <div class="FAC-font-size col-sm-2 col-12 text-sm-center text-left">
                                     <i class="fas fa-calendar-alt FAC-info-icons"></i>
@@ -187,7 +187,7 @@
                                     <div><a href="#">Book an Appointment</a></div>
                                 </div>
                                  <!-- Location -->
-                                <div class="FAC-font-size col-sm-2 col-12 pl-2 pr-0"><a href="#"><i class="fas fa-map-marker-alt px-1 FAC-location-icons"></i>JD3520</a></div>
+                                <div class="FAC-font-size col-sm-2 col-12 pl-2 pr-0 text-nowrap"><a href="#"><i class="fas fa-map-marker-alt px-1 FAC-location-icons"></i>JD3520</a></div>
                                  <!-- Info -->
                                 <div class="FAC-font-size col-sm-2 col-12 text-sm-center text-left">
                                     <i class="fas fa-calendar-alt FAC-info-icons"></i>
@@ -210,7 +210,7 @@
                                     <div><a href="#">Request an Appointment</a></div>
                                 </div>
                                  <!-- Location -->
-                                <div class="FAC-font-size col-sm-2 col-12 pl-2 pr-0"><a href="#"><i class="fas fa-map-marker-alt px-1 FAC-location-icons"></i>META+LAB</a></div>
+                                <div class="FAC-font-size col-sm-2 col-12 pl-2 pr-0 text-nowrap"><a href="#"><i class="fas fa-map-marker-alt px-1 FAC-location-icons"></i>META+LAB</a></div>
                                  <!-- Info -->
                                 <div class="FAC-font-size col-sm-2 col-12 text-sm-center text-left">
                                     <i class="fas fa-calendar-alt FAC-info-icons"></i>
@@ -233,7 +233,7 @@
                                     <div><a href="#">Book an Appointment</a></div>
                                 </div>
                                  <!-- Location -->
-                                <div class="FAC-font-size col-sm-2 col-12 pl-2 pr-0"><a href="#"><i class="fas fa-map-marker-alt px-1 FAC-location-icons"></i>META+LAB</a></div>
+                                <div class="FAC-font-size col-sm-2 col-12 pl-2 pr-0 text-nowrap"><a href="#"><i class="fas fa-map-marker-alt px-1 FAC-location-icons"></i>META+LAB</a></div>
                                  <!-- Info -->
                                 <div class="FAC-font-size col-sm-2 col-12 text-sm-center text-left">
                                     <i class="fas fa-calendar-alt FAC-info-icons"></i>

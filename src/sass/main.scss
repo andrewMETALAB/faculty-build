@@ -1,6 +1,8 @@
 @import "bootstrap/bootstrap";
 @import "partials/variables";
+@import "partials/header";
 @import "partials/classes";
+@import "partials/landingPage";
 
 
 .container{
@@ -30,7 +32,6 @@
         .FAC-banner__icons{
             font-size:1.1rem;
             padding-top:20px;
-            
         }
     }
 
@@ -106,7 +107,7 @@
 }
 
 h2{
-    font-size: 30px;
+    font-size:30px;
     font-weight:300;
     color:rgb(75, 75, 75);
 }
@@ -121,11 +122,10 @@ h6{
     color:rgb(75, 75, 75);
 }
 .badge{
-    color:white;
+    
     font-size:13px;
     font-family:sans-serif;    
     border-radius:3px;
-    background:rgb(97, 93, 93);
 }
 figure{
     display: flex;
@@ -165,51 +165,6 @@ p{
     font-weight:300;
 }
 
-// footer{
-//     height:175px;
-//     background:white;
-//     width:100%;
-//     margin-top:3rem;
-//     font-size:12px;
-//     a{
-//         color:black;
-//         &:hover{
-//             color:black;
-//         }
-//     }
-//     .FACcsunEmblem{
-//         width:75px;
-//     }
-//     .FAC-metaLabFooter{
-//         height: auto;
-//         background:rgb(39, 39, 39);
-//         color:rgb(235, 235, 235);
-//         padding-top:15px;
-//         padding-bottom:15px;
-//         padding-left:10px;
-//         .FAC-metaLabLogo{
-//             font-size:1rem;
-//             padding-bottom:3px;
-//             letter-spacing:2px;
-//             span{
-//                 color:red;
-//                 font-size:1.4rem;
-//                 font-weight:100;
-//             }
-//         }
-//         .FAC-metaLabLink a{
-//             color:rgb(167, 167, 167);
-//             font-weight:100;
-//             font-size:.9rem;
-//         }
-//         .FAC-metaLabMotto{
-//             color:rgb(114, 114, 114);
-//             font-size:.9rem;
-//             font-weight:200;
-//             float:right;
-//         }
-//     }
-// }
 
 
 
@@ -272,25 +227,6 @@ p{
         padding-top:20px;
         border-top:solid 0.3px rgb(236, 236, 236);    
     }
-    // footer{
-    //     text-align: center;
-    //     .FACcsunEmblem{
-    //         width:100px;
-            
-    //     }
-    //     padding-bottom:300px;
-    //     .col-12{
-    //         padding-bottom:15px;
-    //     }
-    //     .FAC-metaLabFooter{
-    //         .FAC-metaLabMotto{
-    //             color:rgb(80, 80, 80);
-    //             font-size:.9rem;
-    //             padding-top:20px;
-    //             float:none;
-    //         }
-    //     } 
-    // }
 
 }
 
@@ -303,17 +239,3 @@ p{
         display:none;
     }
 }
-
-
-
-
-
-//********************************** THIS IS THE CSS FOR CLASSES PAGE ******************************
-
-
-//   @include media-breakpoint-down(sm){
-//     .FAC-Labels{
-//         display:none;
-//     }
-//   }
-
