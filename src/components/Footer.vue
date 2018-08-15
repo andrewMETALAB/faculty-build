@@ -2,7 +2,7 @@
     <div> 
         <footer>
             <div class="container">
-                <div class="row pt-5">
+                <div class="row">
                     <div class="col-12 col-md-5">
                         <div class="row">
                             <div class="col-12 col-md-3">
@@ -56,6 +56,8 @@
 </script>
 <style lang="scss">
    @import '../sass/main.scss';
+
+
 
     footer{
         height:175px;

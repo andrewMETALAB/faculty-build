@@ -248,6 +248,6 @@
 </template>
 <script>
 export default {
-    name: 'Classes'
+    name: 'ProfileClasses'
 }
 </script>

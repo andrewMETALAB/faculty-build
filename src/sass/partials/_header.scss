@@ -1,7 +1,10 @@
-header{
+.FAC-header{
     background:white;
     width:100%;
     height:45px;
+    a{
+        text-decoration: none;
+    }        
 }
 .nav-link{
 padding: .5rem 1.4rem;
@@ -9,6 +12,9 @@ padding: .5rem 1.4rem;
 .FAC-temporary-CSUN{
     color: $csunred;
     font-size:32px;
+    
+       
+    
 }
 .FAC-temporary-Faculty{
     color:rgb(75, 75, 75);
