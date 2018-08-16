@@ -1,0 +1,52 @@
+$red: #d22030;
+$cinnabar: #e64b36;
+$secondary-red: $cinnabar;
+$sea-green: #82cec9;
+$periwinkle: #92a1cd;
+$golden-yellow: #fdbf56;
+$iris: #5b4c93;
+$azure: #2ca5da;
+$beige: #d8d2c4;
+$cool-gray: #55565a; //cool gray 11
+$medium-gray: #a9aba9; //medium gray / cool gray 6
+$light-gray: #bec6c3; //light gray / Pantone 441
+$dark-gray: #3d454d; //decided on by Tiffany and Andrew
+$green: #4fAf47;
+
+$primary:       $red;
+$secondary:     $light-gray;
+$success:       $green;
+$info:          $sea-green;
+$danger:        $secondary-red;
+$warning:       $golden-yellow;
+// $light:         $beige;
+$dark:          $dark-gray;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  // "light":      $light,
+  "dark":       $dark
+);
+
+$body-color: $cool-gray;
+
+$text-muted: #adb5bd; //same as $gray-500
+
+$font-family-sans-serif: ATCOverlook, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-display: FSLola, ATCOverlook, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$font-size-base:              1.6rem;
+
+$headings-font-weight:        700;
+$headings-color:              $dark;
+
+
+$border-radius:               .4rem !default;
+$border-radius-lg:            .45rem !default;
+$border-radius-sm:            .35rem !default;
+

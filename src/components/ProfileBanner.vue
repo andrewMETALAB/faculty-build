@@ -11,7 +11,7 @@
                     <div class="col-12 col-md-8">
                         <div id="FAC-banner__content">
                             
-                            <div class="FAC-banner__department">PROFESSOR | <a href="#">Computer Science</a><a class="FAC-banner__badge badge px-2 ml-2" href="#">CSUN Alum<i class="fas fa-graduation-cap ml-2"></i></a></div>
+                            <div class="FAC-banner__department text-primary">PROFESSOR | <a href="#">Computer Science</a><a class="FAC-banner__badge badge badge-primary px-2 ml-2" href="#">CSUN Alum<i class="fas fa-graduation-cap ml-2"></i></a></div>
                             
                             <h1 class="FAC-banner__name">Steven Fitzgerald</h1> 
                             
@@ -38,9 +38,9 @@
                 </div>
             </div>
         </section>
-        <div class="tab-container">
+        <div class="tab-container mb-5">
             <div class="container">
-              <ul class="nav">
+              <ul class="nav nav-metaphor font-weight-bold">
                 <li class="nav-item"> <router-link class="nav-link" to="/">HOME</router-link> </li>
                 <li class="nav-item"> <router-link class="nav-link" to="/classes">CLASSES</router-link> </li>
               </ul>

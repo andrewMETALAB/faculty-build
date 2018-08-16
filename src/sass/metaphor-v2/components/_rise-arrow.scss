@@ -1,0 +1,69 @@
+.rise-arrow {
+	position: relative;
+	text-align: center;
+	height: 2.33rem;
+	width: 14.66rem;
+	margin-bottom: -1px;
+	
+	&:before {
+	  content: " ";
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  height: 100%;
+	  width: 51%;
+	  background: $red;
+	  transform: skew(0deg, -20deg);
+	}
+
+	&:after {
+	  content: " ";
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	  height: 100%;
+	  width: 50%;
+	  background: $red;
+	  transform: skew(0deg, 20deg);
+	}
+
+	&.rise-arrow--2tone {
+		&:after {		
+			background: $secondary-red;
+		}
+	}
+
+	&.rise-arrow--dark {
+		&:before,
+		&:after {		
+			background: #B11F23;
+		}
+	}
+
+
+	&.rise-arrow--bottom {
+
+		&:before {
+		  content: " ";
+		  position: absolute;
+		  top: 1rem;
+		  left: 0;
+		  height: 100%;
+		  width: 51%;
+		  background: #B11F23;
+		  transform: skew(0deg, 20deg);
+		}
+
+		&:after {
+		  content: " ";
+		  position: absolute;
+		  top: 1rem;
+		  right: 0;
+		  height: 100%;
+		  width: 50%;
+		  background: #B11F23;
+		  transform: skew(0deg, -20deg);
+		}
+
+	}
+}

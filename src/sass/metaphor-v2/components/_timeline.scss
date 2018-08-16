@@ -1,0 +1,62 @@
+.timeline {
+	list-style: none;
+	padding-left: 15px;
+	padding-top: .25rem;
+	padding-bottom: .25rem;
+	border-left: 1px solid $primary;
+
+	li {
+		position: relative;
+		margin: .75rem 0;
+	} 
+
+	&-header,
+	&-event {
+
+		&:before {
+			content: " ";
+			position: absolute;
+			top: 50%;
+			left: -21px;
+			width: 11px;
+			height: 11px;
+			transform: translateY(-50%);
+			border: 2px solid $primary;
+			border-radius: 11px;
+			background: $white;
+		}
+
+		&--align-top {
+			&:before {
+				top: .75rem;
+			}
+		}
+	}
+
+	&-event {
+		&:before {
+			left: -19px;
+			width: 7px;
+			height: 7px;
+			border: none;
+			background: $primary;
+		}	
+	}
+
+	&.timeline--align-top {
+		.timeline-header,
+		.timeline-event {
+			&:before {
+				top: .75rem;
+			}
+
+			&--align-center {
+				&:before {
+					top: 50%;
+				}
+			}
+			
+		}
+
+	}
+}

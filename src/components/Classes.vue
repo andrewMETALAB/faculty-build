@@ -4,8 +4,9 @@
             <div class="row">                 
                 <div class="order-last order-md-first col-md-4 pt-5 pt-md-0">
                     <div class="FAC-pastCourses">
-                        <h6>PAST COURSES</h6>
-                        <ul>
+                        <h6 class="h5">PAST COURSES</h6>
+                        <hr class="hr-metaphor w-25 ml-0">
+                        <ul class="list-unstyled">
                             <li class="pb-4 pt-0 pt-md-3 float-md-none float-left pr-4 FAC-pastCourses-width">
                                 <strong>COMP 485 </strong>
                                 <div>Human-Computer Interaction</div>
@@ -54,26 +55,26 @@
                   
                 </div>
                 <div class="order-md-last order-first col-12 col-md-8 pr-3">
-                    <h2>My Academic Schedule</h2>
+                    <h2 class="h3 text-primary">My Academic Schedule</h2>
                     <div>
                         <h3 class="list-inline-item">Fall 2018</h3>
                         <button type="button" class="btn btn-outline-primary"><i class="fas fa-print fa-xs"></i> Printer Friendly Door Sign</button>
-                        <!-- <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Choose Semester <span class="sr-only">Toggle Dropdown</span></button> -->
-                        <!-- <div class="dropdown-menu">
+                        <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Choose Semester <span class="sr-only">Toggle Dropdown</span></button>
+                        <div class="dropdown-menu">
                             <a class="dropdown-item" href="#">Action</a>
                             <a class="dropdown-item" href="#">Another action</a>
                             <a class="dropdown-item" href="#">Something else here</a>
-                        </div> -->
-                        <select class="custom-select" id="inputGroupSelect01">
+                        </div>
+                        <!-- <select class="custom-select" id="inputGroupSelect01">
                             <option selected>Choose Semester</option> 
                             <option value="1">One</option>
                             <option value="2">Two</option>
                             <option value="3">Three</option>
                             <i class="fas fa-caret-down"></i>
-                        </select>
+                        </select> -->
                     </div>
                     
-                    <hr class="FAC-semester-divider">
+                    <hr class="hr-metaphor">
 
                     <!-- **********************  CLASSES **************************** -->
                             <div class="FAC-downloadBtn">
