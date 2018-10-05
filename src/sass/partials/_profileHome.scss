@@ -20,72 +20,72 @@
     .FAC-degrees-sm, .FAC-interests-sm{
         display:none;
     }
-    .fa-phone{
-        transform: scaleX(-1);
-    }
+    // .fa-phone{
+    //     transform: scaleX(-1);
+    // }
     
-    .tab-container{
-        border-bottom:solid 0.3px rgb(236, 236, 236);
-    }
+    // .tab-container{
+    //     border-bottom:solid 0.3px rgb(236, 236, 236);
+    // }
     
-    h2{
-        font-size:30px;
-        font-weight:300;
-        color:rgb(75, 75, 75);
-    }
-    h3{
-        font-size:25px;
-        font-weight:300;
-        color:rgb(75, 75, 75);
-    }
-    h6{
-        /* font-size:15px; */
-        font-weight:500;
-        color:rgb(75, 75, 75);
-    }
-    .badge{
+    // h2{
+    //     font-size:30px;
+    //     font-weight:300;
+    //     color:rgb(75, 75, 75);
+    // }
+    // h3{
+    //     font-size:25px;
+    //     font-weight:300;
+    //     color:rgb(75, 75, 75);
+    // }
+    // h6{
+    //     /* font-size:15px; */
+    //     font-weight:500;
+    //     color:rgb(75, 75, 75);
+    // }
+    // .badge{
         
-        font-size:13px;
-        font-family:sans-serif;    
-        border-radius:3px;
-    }
-    figure{
-        display: flex;
-        align-items: center;
+    //     font-size:13px;
+    //     font-family:sans-serif;    
+    //     border-radius:3px;
+    // }
+    // figure{
+    //     display: flex;
+    //     align-items: center;
         
-    }
+    // }
     
-    .media{
-        float:left;
-        .media-heading{
-            font-size:15px;
-        }
-    }
+    // .media{
+    //     float:left;
+    //     .media-heading{
+    //         font-size:15px;
+    //     }
+    // }
     
     
-    .nav-link{
-        padding: .5rem 1.4rem;
-    }
-    .tab-container .container ul{
-        list-style-type: none;
-        margin:0;
-        padding:0;
-        color:grey;
-        font-weight:300;
-    }
+    // .nav-link{
+    //     padding: .5rem 1.4rem;
+    // }
+    // .tab-container .container ul{
+    //     list-style-type: none;
+    //     margin:0;
+    //     padding:0;
+    //     color:grey;
+    //     font-weight:300;
+    // }
     
-    ul{
-        text-decoration: none;
-        list-style-type: none;
-        margin:0;
-        padding:0;
-        color:grey;
-        font-weight:300;
-    }
-    p{
-        color:grey;
-        font-weight:300;
-    }
+    // ul{
+    //     text-decoration: none;
+    //     list-style-type: none;
+    //     margin:0;
+    //     padding:0;
+    //     color:grey;
+    //     font-weight:300;
+    // }
+    // p{
+    //     color:grey;
+    //     font-weight:300;
+    // }
 
 
     @include media-breakpoint-down(md) { 

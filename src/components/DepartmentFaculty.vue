@@ -1,10 +1,12 @@
 <template>
-    <div class="FAC-DepartmentFaculty">
+    <div class="FAC-searchPage">
         
         
         <section id="FAC-searchBanner">
-            <div class="FAC-searchForFac text-center py-5 mx-3">Start Discovering People At CSUN.</div>
+            <div class="text-center pt-5 pb-3 mx-3 h2">Start Discovering People At CSUN.</div>
+            
             <div class="container mb-3 pb-5">
+                <hr class="hr-metaphor w-25 mx-auto mb-5">
                 <div class="row">
                     <div class="offset-md-2 col-md-6 col-12">
                         <input type="text" placeholder="Search for Person..." class="form-control d-inline">
@@ -16,7 +18,6 @@
                 <div class="row">
                     <div class="col-12 pt-5 font-italic text-center" >
                         <router-link to="/SearchByDept">Browse By: Department</router-link> 
-
                     </div>
                 </div>
             </div>
@@ -27,15 +28,10 @@
         </div>
 
         <section id="FAC-facultyCards">
-            <div class="container">
-                <!-- <div class="row">
-                    <div class="col-12 pt-4 pb-2 font-italic" >
-                        Browse By: <a href="#">Department</a>
-                    </div>
-                </div> -->
+            <div class="container pt-4" >
 
                 <div>
-                    <h2 class="pt-4">Computer Science</h2>
+                    <h2 class="pt-4 h4">Computer Science</h2>
                     <hr class="FAC-deptDivider">
                     <div class="pb-4"> 
                         <div class="FAC-deptIcons pr-3">
@@ -60,92 +56,79 @@
                     </div>
                 </div>
 
+
                 <div class="row text-center py-2">
 
-                    <div class="col-lg-4 col-sm-6 col-12 py-2" >
-                        <router-link to="/FacultyProfile/">
-                            <div class="card">
-                                
-                                <img class="card-img-top d-block mx-auto mt-4"  src="https://cdn.metalab.csun.edu/media/faculty/steven.fitzgerald/avatar.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Steven Fitzgerald</h5>
-                                    <p class="card-text">Professor and Director</p>
-                                    <div>Computer Science, META+LAB</div>
-                                </div>
+                    <div class="col-lg-4 col-sm-6 col-12 py-2 mb-4" >
+                        <router-link to="/FacultyProfile/" class="card">
+                            <img class="card-img-top d-block mx-auto mt-4"  src="https://cdn.metalab.csun.edu/media/faculty/steven.fitzgerald/avatar.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Steven Fitzgerald</h5>
+                                <div class="card-text">Professor</div>
+                                <div>Computer Science</div>
                             </div>
                         </router-link>
                     </div>
 
-                  <div class="col-lg-4 col-sm-6 col-12 py-2" >
-                       <router-link to="/FacultyProfile/">
-                            <div class="card">
-                                
-                                <img class="card-img-top d-block mx-auto mt-4"  src="https://cdn.metalab.csun.edu/media/faculty/steven.fitzgerald/avatar.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Steven Fitzgerald</h5>
-                                    <p class="card-text">Professor and Director</p>
-                                    <div>Computer Science, META+LAB</div>
-                                </div>
+                    <div class="col-lg-4 col-sm-6 col-12 py-2 mb-4" >
+                        <router-link to="/FacultyProfile/" class="card">
+                            <img class="card-img-top d-block mx-auto mt-4"  src="https://cdn.metalab.csun.edu/media/faculty/steven.fitzgerald/avatar.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Cheryl Spector</h5>
+                                <div class="card-text">Professor</div>
+                                <div>English</div>
                             </div>
                         </router-link>
                     </div>
 
-                  <div class="col-lg-4 col-sm-6 col-12 py-2" >
-                        <router-link to="/FacultyProfile/">
-                            <div class="card">
-                                
-                                <img class="card-img-top d-block mx-auto mt-4"  src="https://cdn.metalab.csun.edu/media/faculty/steven.fitzgerald/avatar.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Steven Fitzgerald</h5>
-                                    <p class="card-text">Professor and Director</p>
-                                    <div>Computer Science, META+LAB</div>
-                                </div>
+                    <div class="col-lg-4 col-sm-6 col-12 py-2 mb-4" >
+                        <router-link to="/FacultyProfile/" class="card">
+                            <img class="card-img-top d-block mx-auto mt-4"  src="https://cdn.metalab.csun.edu/media/faculty/steven.fitzgerald/avatar.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Nerces Kevork Kazandjian</h5>
+                                <div class="card-text">Faculty</div>
+                                <div>Computer Science</div>
                             </div>
                         </router-link>
                     </div>
 
-                    <div class="col-lg-4 col-sm-6 col-12 py-2" >
-                        <router-link to="/FacultyProfile/">
-                            <div class="card">
-                                
-                                <img class="card-img-top d-block mx-auto mt-4"  src="https://cdn.metalab.csun.edu/media/faculty/steven.fitzgerald/avatar.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Steven Fitzgerald</h5>
-                                    <p class="card-text">Professor and Director</p>
-                                    <div>Computer Science, META+LAB</div>
-                                </div>
+
+                    <div class="col-lg-4 col-sm-6 col-12 py-2 mb-4" >
+                        <router-link to="/FacultyProfile/" class="card">
+                            <img class="card-img-top d-block mx-auto mt-4"  src="https://cdn.metalab.csun.edu/media/faculty/steven.fitzgerald/avatar.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Bobbie (Roberta) Emetu</h5>
+                                <div class="card-text">Assistant Professor</div>
+                                <div>Health Sciences</div>
                             </div>
                         </router-link>
                     </div>
 
-                  <div class="col-lg-4 col-sm-6 col-12 py-2" >
-                       <router-link to="/FacultyProfile/">
-                            <div class="card">
-                                
-                                <img class="card-img-top d-block mx-auto mt-4"  src="https://cdn.metalab.csun.edu/media/faculty/steven.fitzgerald/avatar.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Steven Fitzgerald</h5>
-                                    <p class="card-text">Professor and Director</p>
-                                    <div>Computer Science, META+LAB</div>
-                                </div>
+                    <div class="col-lg-4 col-sm-6 col-12 py-2 mb-4" >
+                        <router-link to="/FacultyProfile/" class="card">
+                            <img class="card-img-top d-block mx-auto mt-4"  src="https://cdn.metalab.csun.edu/media/faculty/steven.fitzgerald/avatar.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Steven Fitzgerald</h5>
+                                <div class="card-text">Professor</div>
+                                <div>Computer Science</div>
                             </div>
                         </router-link>
                     </div>
 
-                  <div class="col-lg-4 col-sm-6 col-12 py-2" >
-                        <router-link to="/FacultyProfile/">
-                            <div class="card">
-                                
-                                <img class="card-img-top d-block mx-auto mt-4"  src="https://cdn.metalab.csun.edu/media/faculty/steven.fitzgerald/avatar.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Steven Fitzgerald</h5>
-                                    <p class="card-text">Professor and Director</p>
-                                    <div>Computer Science, META+LAB</div>
-                                </div>
+                    <div class="col-lg-4 col-sm-6 col-12 py-2 mb-4" >
+                        <router-link to="/FacultyProfile/" class="card">
+                            <img class="card-img-top d-block mx-auto mt-4"  src="https://cdn.metalab.csun.edu/media/faculty/steven.fitzgerald/avatar.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Steven Fitzgerald</h5>
+                                <div class="card-text">Professor</div>
+                                <div>Computer Science</div>
                             </div>
                         </router-link>
                     </div>
-                </div>                
+
+                </div>
+
+
             </div>
             
 
@@ -186,7 +169,7 @@
 </template>
 <script>
 export default {
-    name:'DepartmentFaculty'
+    name:'SearchPage'
 }
 </script>
 <style>
