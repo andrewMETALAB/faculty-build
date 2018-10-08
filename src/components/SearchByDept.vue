@@ -1,8 +1,8 @@
 <template>
-    <div class="FAC-searchByDept">
-        <div>
+    <div>
+        <!-- <div>
             <a class="btn--feedback" href="https://www.csun.edu/faculty/scholarship/feedback" target="_blank">Give Feedback</a>
-        </div>
+        </div> -->
         <div class="py-5 mt-1">
             <div class="container">
                 <div class="row">
@@ -28,7 +28,7 @@
 
 
 
-        <div class="bg-light pt-3">
+        <div class="bg-light py-5">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -38,7 +38,7 @@
                 <!-- <hr class="mt-2"> -->
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 col-12 pb-3">
-                        <router-link to="/DepartmentFaculty">
+                        <router-link to="/DepartmentFaculty" class="card-department">
                             <div class="card">
                                 
                                 <div class="card-body">
@@ -48,7 +48,7 @@
                         </router-link>
                     </div>
                     <div class="col-lg-4 col-sm-6 col-12 pb-3 ">
-                        <router-link to="/DepartmentFaculty">
+                        <router-link to="/DepartmentFaculty" class="card-department">
                         <div class="card">
                             
                             
@@ -60,7 +60,7 @@
                         </router-link>
                     </div>
                     <div class="col-lg-4 col-sm-6 col-12 pb-3 ">
-                        <router-link to="/DepartmentFaculty">
+                        <router-link to="/DepartmentFaculty" class="card-department">
                         <div class="card">
                             
                             <div class="card-body">
@@ -70,7 +70,7 @@
                         </router-link>
                     </div>
                     <div class="col-lg-4 col-sm-6 col-12 pb-3 ">
-                        <router-link to="/DepartmentFaculty">
+                        <router-link to="/DepartmentFaculty" class="card-department">
                         <div class="card">
                                 <a href="#"></a>
                                 <div class="card-body">
@@ -80,7 +80,7 @@
                             </router-link>
                         </div>
                     <div class="col-lg-4 col-sm-6 col-12 pb-3 ">
-                        <router-link to="/DepartmentFaculty">
+                        <router-link to="/DepartmentFaculty" class="card-department">
                         <div class="card">
                             <a href="#"></a>
                             <div class="card-body">
@@ -90,7 +90,7 @@
                         </router-link>
                     </div>
                     <div class="col-lg-4 col-sm-6 col-12 pb-3 ">
-                        <router-link to="/DepartmentFaculty">
+                        <router-link to="/DepartmentFaculty" class="card-department">
                         <div class="card">
                             <a href="#"></a>
                             <div class="card-body">
@@ -100,7 +100,7 @@
                         </router-link>
                     </div>
                     <div class="col-lg-4 col-sm-6 col-12 pb-3">
-                        <router-link to="/DepartmentFaculty">
+                        <router-link to="/DepartmentFaculty" class="card-department">
                     <div class="card">
                                 <a href="#"></a>
                                 <div class="card-body">
@@ -110,7 +110,7 @@
                             </router-link>
                         </div>
                     <div class="col-lg-4 col-sm-6 col-12 pb-3 ">
-                        <router-link to="/DepartmentFaculty">
+                        <router-link to="/DepartmentFaculty" class="card-department">
                         <div class="card">
                             <a href="#"></a>
                             <div class="card-body">
@@ -120,7 +120,7 @@
                         </router-link>
                     </div>
                     <div class="col-lg-4 col-sm-6 col-12 pb-3 ">
-                        <router-link to="/DepartmentFaculty">
+                        <router-link to="/DepartmentFaculty" class="card-department">
                         <div class="card">
                             <a href="#"></a>
                             <div class="card-body">
@@ -130,7 +130,7 @@
                         </router-link>
                     </div>
                     <div class="col-lg-4 col-sm-6 col-12 pb-3 ">
-                        <router-link to="/DepartmentFaculty">
+                        <router-link to="/DepartmentFaculty" class="card-department">
                     <div class="card">
                                 <a href="#"></a>
                                 <div class="card-body">
@@ -140,7 +140,7 @@
                             </router-link>
                         </div>
                     <div class="col-lg-4 col-sm-6 col-12 pb-3 ">
-                        <router-link to="/DepartmentFaculty">
+                        <router-link to="/DepartmentFaculty" class="card-department">
                         <div class="card">
                             <a href="#"></a>
                             <div class="card-body">
@@ -150,7 +150,7 @@
                         </router-link>
                     </div>
                     <div class="col-lg-4 col-sm-6 col-12 pb-3 ">
-                        <router-link to="/DepartmentFaculty">
+                        <router-link to="/DepartmentFaculty" class="card-department">
                         <div class="card">
                             <a href="#"></a>
                             <div class="card-body">
@@ -160,7 +160,7 @@
                         </router-link>
                     </div>
                     <div class="col-lg-4 col-sm-6 col-12 pb-3">
-                        <router-link to="/DepartmentFaculty">
+                        <router-link to="/DepartmentFaculty" class="card-department">
                     <div class="card">
                                 <a href="#"></a>
                                 <div class="card-body">
@@ -170,7 +170,7 @@
                             </router-link>
                         </div>
                     <div class="col-lg-4 col-sm-6 col-12 pb-3 ">
-                        <router-link to="/DepartmentFaculty">
+                        <router-link to="/DepartmentFaculty" class="card-department">
                         <div class="card">
                             <a href="#"></a>
                             <div class="card-body">
@@ -180,7 +180,7 @@
                         </router-link>
                     </div>
                     <div class="col-lg-4 col-sm-6 col-12 pb-3 ">
-                        <router-link to="/DepartmentFaculty">
+                        <router-link to="/DepartmentFaculty" class="card-department">
                         <div class="card">
                             <a href="#"></a>
                             <div class="card-body">
@@ -190,7 +190,7 @@
                         </router-link>
                     </div>
                     <div class="col-lg-4 col-sm-6 col-12 pb-3 ">
-                        <router-link to="/DepartmentFaculty">
+                        <router-link to="/DepartmentFaculty" class="card-department">
                     <div class="card">
                                 <a href="#"></a>
                                 <div class="card-body">
@@ -200,7 +200,7 @@
                             </router-link>
                         </div>
                     <div class="col-lg-4 col-sm-6 col-12 pb-3 ">
-                        <router-link to="/DepartmentFaculty">
+                        <router-link to="/DepartmentFaculty" class="card-department">
                         <div class="card">
                             <a href="#"></a>
                             <div class="card-body">
@@ -211,7 +211,7 @@
                         </router-link>
                     </div>
                     <div class="col-lg-4 col-sm-6 col-12 pb-3 ">
-                        <router-link to="/DepartmentFaculty">
+                        <router-link to="/DepartmentFaculty" class="card-department">
                         <div class="card">
                             <a href="#"></a>
                             <div class="card-body">

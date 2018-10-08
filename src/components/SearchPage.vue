@@ -7,7 +7,7 @@
                         <h2 class="searchBanner__title text-center pb-3">
                             Start Discovering Faculty At CSUN.
                         </h2>
-                        <hr class="hr-metaphor w-50 w-md-25 mx-auto mb-5">
+                        <hr class="hr-metaphor w-25 mx-auto mb-5">
                         <div class="row justify-content-center">
                             <div class="col-lg-6 col-md-8 col-sm-8 col-7 pr-0">
                                 <input type="text" placeholder="Search by Name..." class="form-control d-inline">
@@ -30,7 +30,7 @@
                     <div class="container py-5">
                         <div class="row">
                             <div class="col-sm-12 text-center text-md-left">
-                                <h4 class="mb-4">Results: <span class="font-weight-normal">18 people</span></h4>
+                                <h5 class="mb-4">Results: <span class="font-weight-normal">18 people</span></h5>
                             </div>
                         </div>
                         <div class="row text-center py-2">
